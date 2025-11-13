@@ -40,7 +40,7 @@ layout:
 
 {% columns %}
 {% column %}
-#### Abantailak
+**Abantailak**
 
 ✅ Fisika-integrazio osoa\
 ✅ Talka errealistak eta erantzunak\
@@ -51,7 +51,7 @@ layout:
 {% endcolumn %}
 
 {% column %}
-#### Desabantailak
+**Desabantailak**
 
 ❌ "Irristakorra" sentitu daiteke edo kontrolatzeko zaila\
 ❌ Fisikaren doikuntza behar du\
@@ -184,7 +184,7 @@ rb.angularDrag = 0.05f; // Biraketa-erresistentzia
 {% endtabs %}
 
 {% hint style="success" %}
-#### Praktika onak <kbd>Rigidbody</kbd> Mugimendurako
+**Praktika onak&#x20;**<kbd>**Rigidbody**</kbd>**&#x20;Mugimendurako**
 
 1. Beti mugitu `FixedUpdate()`-n, ez `Update()`-n
 2. Erabili `rb.freezeRotation = true` iraultzea galarazteko
@@ -243,7 +243,7 @@ rb.interpolation = RigidbodyInterpolation.Interpolate;
 
 {% columns %}
 {% column %}
-#### Abantailak
+**Abantailak**
 
 ✅ Kontrol zuzenagoa (irristatzerik/momenturik ez)\
 ✅ Lurra-detekzio integratua (`isGrounded`)\
@@ -254,7 +254,7 @@ rb.interpolation = RigidbodyInterpolation.Interpolate;
 {% endcolumn %}
 
 {% column %}
-#### Desabantailak
+**Desabantailak**
 
 ❌ **3D-n soilik funtzionatzen du** (ez dago 2D bertsiorik)\
 ❌ Ez du Rigidbody fisikarekin ondo funtzionatzen\
@@ -419,7 +419,7 @@ public class FPSController : MonoBehaviour
 <figure><img src="../../../.gitbook/assets/irudia (6).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-#### Praktika onak <kbd>CharacterController</kbd> Mugimendurako
+**Praktika onak&#x20;**<kbd>**CharacterController**</kbd>**&#x20;Mugimendurako**
 
 1. Mugitu `Update()`-n `Time.deltaTime` erabiliz
 2. Beti biderkatu mugimendua `Time.deltaTime`-z
@@ -485,7 +485,7 @@ void Update()
 ***
 
 {% hint style="warning" %}
-### Gomendio orokorrak
+#### Gomendio orokorrak
 
 * Erabili `Input.GetAxis()` sarrera leunerako (ez `GetKey()`)
 * Normalizatu mugimendu diagonala abiadura azkarrago diagonala saihesteko

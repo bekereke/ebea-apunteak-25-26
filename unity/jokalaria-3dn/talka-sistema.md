@@ -1,7 +1,7 @@
 # Talka Sistema
 
 {% hint style="info" %}
-#### Zer da **talka** kontzeptu gisa Unityn?
+**Zer da talka kontzeptu gisa Unityn?**
 
 <mark style="background-color:purple;">Unity-n talkak objektuak elkarrekin fisikoki elkarreragiten dutenean gertatzen dira.</mark> Bi talka mota nagusi daude:
 
@@ -22,10 +22,10 @@ Collider-ak objektuen forma fisikoa definitzen duten osagaiak dira:
 Talka-detekzioak funtzionatzeko, gutxienez objektu batek <kbd>**Rigidbody**</kbd>izan behar du.
 
 ┌─────────────────┬──────────────┬──────────────┐\
-│                                                │ Rigidbody                    │  Ez-Rigidbody             │\
+│ │ Rigidbody │ Ez-Rigidbody │\
 ├─────────────────┼──────────────┼──────────────┤\
-│ Rigidbody                             │ ✅ Talka                        │ ✅ Talka                       │\
-│ Ez-Rigidbody                       │ ✅ Talka                        │ ❌ Ez                            │\
+│ Rigidbody │ ✅ Talka │ ✅ Talka │\
+│ Ez-Rigidbody │ ✅ Talka │ ❌ Ez │\
 └─────────────────┴──────────────┴──────────────┘
 {% endhint %}
 
@@ -183,11 +183,11 @@ void OnCollisionEnter(Collision collision)
 
 <summary>ADIBIDE PRAKTIKOA</summary>
 
-### Palestra Interaktiboa
+#### Palestra Interaktiboa
 
 <figure><img src="../../.gitbook/assets/irudia (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Eszenatokia Konfiguratzea
+**Eszenatokia Konfiguratzea**
 
 **1. Palestra (Plataforma)**
 
@@ -477,7 +477,5 @@ public class SimpleObjectDetector : MonoBehaviour
     }
 }
 ```
-
-
 
 </details>
