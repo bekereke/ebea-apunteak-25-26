@@ -177,8 +177,10 @@ void OnTriggerEnter(Collider other)
 
 ## Layer-based Collision (Kolisioen Geruzen Kontrola)
 
-Unity-n Layer-ak erabili ditzakezu zer objektu-motekin talka egin dezakeen kontrolatzeko.
+Unityn Layer-ak erabili ditzakezu zer objektu-motekin talka egin dezakeen kontrolatzeko.
 
+{% columns %}
+{% column %}
 ### Layer-ak konfiguratzea
 
 1. **Edit > Project Settings > Tags and Layers**
@@ -186,8 +188,13 @@ Unity-n Layer-ak erabili ditzakezu zer objektu-motekin talka egin dezakeen kontr
 3. **Edit > Project Settings > Physics**
 4. **Layer Collision Matrix** editatu
 
+
+{% endcolumn %}
+
+{% column %}
 #### Kodean Layer egiaztatzea
 
+{% code overflow="wrap" expandable="true" %}
 ```csharp
 void OnCollisionEnter(Collision collision)
 {
@@ -198,6 +205,9 @@ void OnCollisionEnter(Collision collision)
     }
 }
 ```
+{% endcode %}
+{% endcolumn %}
+{% endcolumns %}
 
 <details>
 
