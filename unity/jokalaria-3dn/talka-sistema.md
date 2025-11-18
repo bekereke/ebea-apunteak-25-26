@@ -9,7 +9,7 @@
 2. [**Trigger**](talka-sistema.md#trigger-hautemate-gardena-mamua) - Objektuak elkar zeharkatzen dutenean detekzioa (gardenak)
 {% endhint %}
 
-Objektu batek beste bat antzeman dezan, bi osagai izan behar ditu <kbd>GameObject</kbd> orok: `Collider` eta <kbd>Rigibody</kbd>. Lehenak, objektuaren inguruan sare egiturazko estalki bat adierazten du du, gardena izatez. Geroz eta sare begi txikiagoak eta anitzagoak, orduan eta objektuaren formari egotiguagoa izango da. Zehaztasun mailak errealismoa emango dio edo faltsutu egingo du kontaktua. Inguruko sare estalki horien izena `Collider` da. Detekzioa hautemateko lehen osagaia dira.&#x20;
+<mark style="background-color:purple;">Objektu batek beste bat antzeman dezan, bi osagai izan behar ditu</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**ezinbestean**</mark> <mark style="background-color:purple;"></mark><kbd><mark style="background-color:purple;">GameObject<mark style="background-color:purple;"></kbd> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">orok</mark>: `Collider` eta <kbd>Rigibody</kbd>. Lehenak, objektuaren inguruan sare egiturazko estalki bat adierazten du du, gardena izatez. Geroz eta sare begi txikiagoak eta anitzagoak, orduan eta objektuaren formari egotiguagoa izango da. Zehaztasun mailak errealismoa emango dio edo faltsutu egingo du kontaktua. Inguruko sare estalki horien izena `Collider` da. Detekzioa hautemateko lehen osagaia dira.&#x20;
 
 {% columns %}
 {% column %}
@@ -51,20 +51,32 @@ Talka-detekzioak funtzionatzeko, gutxienez objektu batek <kbd>**Rigidbody**</kbd
 
 ## Collision vs Trigger
 
+{% columns %}
+{% column %}
 ### Collision (Talka Solidoa)
 
 * Objektuak **ez dira zeharkatzen**
 * Fisika-indarrak aplikatzen dira
 * Erabiltzen da objektu solidoetarako
 * `OnCollisionEnter`, `OnCollisionStay`, `OnCollisionExit` funtzioak
+{% endcolumn %}
 
+{% column %}
+{% code overflow="wrap" %}
 ```csharp
 void OnCollisionEnter(Collision collision)
 {
     Debug.Log("Talka honekin: " + collision.gameObject.name);
 }
 ```
+{% endcode %}
 
+
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
 ### Trigger (Hautemate gardena/mamua)
 
 * Objektuak **zeharkatzen dira**
@@ -72,18 +84,29 @@ void OnCollisionEnter(Collision collision)
 * Erabiltzen da detekzio-zonetarako
 * `OnTriggerEnter`, `OnTriggerStay`, `OnTriggerExit` funtzioak
 * Collider-ean **"Is Trigger"** aktibatuta egon behar du
+{% endcolumn %}
 
+{% column %}
+{% code overflow="wrap" %}
 ```csharp
 void OnTriggerEnter(Collider other)
 {
     Debug.Log("Trigger-era sartu da: " + other.gameObject.name);
 }
 ```
+{% endcode %}
 
-### Talken hautematea
 
+{% endcolumn %}
+{% endcolumns %}
+
+### Talkak hautematea
+
+{% columns %}
+{% column %}
 #### <kbd>Collision</kbd> funtzioaren bidez objektu ikuskorretan
 
+{% code overflow="wrap" expandable="true" %}
 ```csharp
 // Talka hasi denean (behin)
 void OnCollisionEnter(Collision collision)
@@ -103,9 +126,13 @@ void OnCollisionExit(Collision collision)
     Debug.Log("Talka amaitu da");
 }
 ```
+{% endcode %}
+{% endcolumn %}
 
+{% column %}
 #### <kbd>Trigger</kbd> funtzioaren bidez eremu gardenetan
 
+{% code overflow="wrap" expandable="true" %}
 ```csharp
 // Talka hasi denean (behin)
 void OnCollisionEnter(Collision collision)
@@ -125,8 +152,11 @@ void OnCollisionExit(Collision collision)
     Debug.Log("Talka amaitu da");
 }
 ```
+{% endcode %}
+{% endcolumn %}
+{% endcolumns %}
 
-### Talketan informazioa eskuratzea
+### Talketatik informazioa eskuratzea
 
 #### <kbd>Collision</kbd> objektuaren informazioa
 
