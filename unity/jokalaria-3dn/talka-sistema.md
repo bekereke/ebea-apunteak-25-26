@@ -5,18 +5,38 @@
 
 <mark style="background-color:purple;">Unity-n talkak objektuak elkarrekin fisikoki elkarreragiten dutenean gertatzen dira.</mark> Bi talka mota nagusi daude:
 
-1. **Collision** - Objektuak elkar blokeatzen dutenean (solidoak)
-2. **Trigger** - Objektuak elkar zeharkatzen dutenean detekzioa (gardenak)
+1. [**Collision**](talka-sistema.md#collision-talka-solidoa) - Objektuak elkar blokeatzen dutenean (solidoak)
+2. [**Trigger**](talka-sistema.md#trigger-hautemate-gardena-mamua) - Objektuak elkar zeharkatzen dutenean detekzioa (gardenak)
 {% endhint %}
 
-### Collider Osagaiak
+Objektu batek beste bat antzeman dezan, bi osagai izan behar ditu <kbd>GameObject</kbd> orok: `Collider` eta <kbd>Rigibody</kbd>. Lehenak, objektuaren inguruan sare egiturazko estalki bat adierazten du du, gardena izatez. Geroz eta sare begi txikiagoak eta anitzagoak, orduan eta objektuaren formari egotiguagoa izango da. Zehaztasun mailak errealismoa emango dio edo faltsutu egingo du kontaktua. Inguruko sare estalki horien izena `Collider` da. Detekzioa hautemateko lehen osagaia dira.&#x20;
 
-Collider-ak objektuen forma fisikoa definitzen duten osagaiak dira:
+{% columns %}
+{% column %}
+{% hint style="warning" %}
+**Zer dira&#x20;**<kbd>**Collider**</kbd>**ak?**
+
+`Collider`ak objektuen forma fisikoa definitzen duten osagaiak dira.&#x20;
 
 * **Box Collider** - Kutxak, hormak, lurrak
 * **Sphere Collider** - Pilotak, esferak
 * **Capsule Collider** - Pertsonaiak, zilindro biribilduak
 * **Mesh Collider** - Forma konplexuak (garestia GPU errendimenduan)
+{% endhint %}
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/Unity - Untitled - Collisions - Web Player_ _DX11_ 2015-04-22 22.41.37.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+Detektatu edo hauteman nahi den objektu orok izan beharko duen beste osagaia <kbd>Rigibody</kbd> izenekoa da. Hau abstraktuagoa da azaltzen, arau eta ezaugarri multzo gisa irudikatzekoa:&#x20;
+
+{% hint style="warning" %}
+**Zer da&#x20;**<kbd>**Rigibody**</kbd>**?**
+
+<kbd>Rigidbody</kbd> baitan daramaten objektuak (<kbd>GameObject</kbd> Unityn) arau fisikoak simlatzen dituen motorearen eraginpean daude. Hots, fisikak dituzte! <kbd>Rigidbody</kbd>k indarra eta bihurdura jaso ditzake bere objektuak modu errealistan mugi daitezen. `GameObject`ek `Rigidbody` izan behar dute grabitateak eragin diezaieten; edo, objektuaren baitan gordetako beste script (C# kode erantsia) bidez nahierako indarraren eraginpean jardun dezan; edo, beste objektu batzuekin elkarreragin dezaten NVIDIA Physx fisikako motorraren bidez.
+{% endhint %}
 
 {% hint style="danger" %}
 Talka-detekzioak funtzionatzeko, gutxienez objektu batek <kbd>**Rigidbody**</kbd>izan behar du.
