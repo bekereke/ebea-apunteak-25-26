@@ -133,7 +133,9 @@ public class PlayerController : MonoBehaviour
 
 #### Sarrera (Input) Sistema
 
-Unity-k bi input sistema ditu:
+Ulertu beharreko hiru kontzeptu daude Unityn jokalariaren mugimenduaren gainera: erabiltzailearen aginduen seinaleak (<kbd>PlayerInput</kbd>); pertsonaiaren mugimendu birtuala (<kbd>CharacterController</kbd>); programatzeko nahierako portaera (<kbd>Script</kbd>). &#x20;
+
+<kbd>PlayerInput</kbd> edo erabiltzaileak agindutakoa interpretatzeko bi aukera daude:
 
 **1. Input Manager Zaharra (Legacy)**
 
@@ -175,8 +177,6 @@ public void OnMove(InputAction.CallbackContext context)
 ***
 
 ### Jokalariaren Oinarrizko Egitura
-
-Ulertu beharreko hiru kontzeptu daude Unityn jokalariaren mugimenduaren gainera: erabiltzailearen aginduen seinaleak (<kbd>PlayerInput</kbd>); pertsonaiaren mugimendu birtuala (<kbd>CharacterController</kbd>); programatzeko nahierako portaera (<kbd>Script</kbd>). &#x20;
 
 #### Jokalari Sinple baten Adibidea (3D)
 
