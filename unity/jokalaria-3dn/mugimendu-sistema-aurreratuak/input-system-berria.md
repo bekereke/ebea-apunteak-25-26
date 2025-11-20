@@ -6,7 +6,7 @@ description: Erabiltzailearen agintea
 
 Erabiltzaileak **bideo-jokoari agintzeko** hainbat sarrera gailu izan ditzake: teklatua, sagua, gamepada, VR kontrolak, ukipen-pantaila, etab.&#x20;
 
-Seinale edo agindu horiek (**inputs**) ulertzeko eta **mapeatzeko** (i.e. nahi eran berrantolatzeko) barne sistema bat izan behar du motore grafikoak. Hiru sistema desberdin erabili daitezke Unityn.
+Seinale edo agindu horiek (**inputs**) ulertzeko eta **mapeatzeko** (i.e. nahi eran berrantolatzeko) barne sistema bat izan behar du motore grafikoak. Unity bi sistema egonagatik, gero praktikan, konbinaketa desberdinak onartzen dituzte programatzeko garairako.
 
 > Input System-ak **ENTZUTEN du** zer egiten duen erabiltzaileak.
 

@@ -12,7 +12,7 @@ Unityn adierazteko diren objektuen artetik nagusia erabitzaileak kontrolatu beha
 Baina hasi orduko...
 
 {% hint style="info" %}
-#### Jokalaria zer da?
+**Jokalaria zer da?**
 
 Jokalaria erabiltzaileak kontrolatzen duen pertsonaia edo objektua da jokoan. Jokalaria da joko-munduaren "begiak" eta "eskuak"; erabiltzaileak aginduko duen objektua; haren avatarra.
 {% endhint %}
@@ -175,6 +175,8 @@ public void OnMove(InputAction.CallbackContext context)
 ***
 
 ### Jokalariaren Oinarrizko Egitura
+
+Ulertu beharreko hiru kontzeptu daude Unityn jokalariaren mugimenduaren gainera: erabiltzailearen aginduen seinaleak (<kbd>PlayerInput</kbd>); pertsonaiaren mugimendu birtuala (<kbd>CharacterController</kbd>); programatzeko nahierako portaera (<kbd>Script</kbd>). &#x20;
 
 #### Jokalari Sinple baten Adibidea (3D)
 
