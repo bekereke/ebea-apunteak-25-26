@@ -16,6 +16,6 @@
 * [Jokalaria 3Dn](unity/jokalaria-3dn/README.md)
   * [Talka Sistema](unity/jokalaria-3dn/talka-sistema.md)
   * [Mugimendu Sistema Aurreratuak](unity/jokalaria-3dn/mugimendu-sistema-aurreratuak/README.md)
-    * [Input System Berria](unity/jokalaria-3dn/mugimendu-sistema-aurreratuak/input-system-berria.md)
+    * [Sarrera kudeaketa](unity/jokalaria-3dn/mugimendu-sistema-aurreratuak/input-system-berria.md)
   * [Animazio Sistema](unity/jokalaria-3dn/animazio-sistema.md)
   * [VR Garapena](unity/jokalaria-3dn/vr-garapena.md)

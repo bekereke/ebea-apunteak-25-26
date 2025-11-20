@@ -1,18 +1,20 @@
-# Input System Berria
+---
+description: Erabiltzailearen agintea
+---
+
+# Sarrera kudeaketa
+
+Erabiltzaileak **bideo-jokoari agintzeko** hainbat sarrera gailu izan ditzake: teklatua, sagua, gamepada, VR kontrolak, ukipen-pantaila, etab.&#x20;
+
+Seinale edo agindu horiek (**inputs**) ulertzeko eta **mapeatzeko** (i.e. nahi eran berrantolatzeko) barne sistema bat izan behar du motore grafikoak. Hiru sistema desberdin erabili daitezke Unityn.
 
 > Input System-ak **ENTZUTEN du** zer egiten duen erabiltzaileak.
 
-{% hint style="info" %}
-#### Zer da?
+#### Zer egiten dute?
 
-Sistema bat **sarrerak (inputs) kudeatzeko** eta batetik bestera errazago **mapeatzeko**: teklatua, sagua, gamepada, VR kontrolak, ukipen-pantaila, etab.
-{% endhint %}
-
-#### Zer egiten du?
-
-* 🎮 **Irakurtzen du** zer sakatu duen erabiltzaileak
-* 🔄 **Itzultzen du** sarrera horiek zure kodera
-* ⚙️ **Konfiguratzen ditu** kontrolak (rebinding)
+* 🎮 **Irakurtzen dute** zer sakatu duen erabiltzaileak
+* 🔄 **Itzultzen dute** sarrera horiek zure kodera
+* ⚙️ **Konfiguratzen dituzte** kontrolak (rebinding)
 
 #### Adibidea
 
@@ -35,4 +37,3 @@ public class InputExample : MonoBehaviour
     }
 }
 ```
-

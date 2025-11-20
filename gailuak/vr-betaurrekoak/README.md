@@ -4,7 +4,9 @@
 
 **EB (Errealitate Birtuala / VR - Virtual Reality)** erabiltzailea guztiz ingurune digital batean murgiltzen duen teknologia da, betaurreko bereziak erabiliz mundu erreala ezkutatzen duena eta 360 graduko esperientzia birtuala sortzen duena; Meta Quest edo PlayStation VR bezalako gailuak dira adibide, eta batez ere bideo-jokoetan, prestakuntza-simulazioetan eta arkitektura birtualean erabiltzen da. **EA (Errealitate Areagotua / AR - Augmented Reality)** mundu errealean elementu digitalak gainjartzean datza, erabiltzaileak ingurunea ikusten jarraitzen duela baina informazio birtuala gehituta, smartphone, tablet edo beira berezien bidez; Pokemon Go, Instagram leiarrak edo mantenu-gida interaktiboak dira adibide argigarriak. **XR (Extended Reality / Errealitate Hedatua)** termino orokorra da, EB, EA eta errealitate mistoa (MR) barne hartzen dituen kategoria da, errealitate fisikoa eta digitala konbinatzen duten teknologia guztiak biltzen dituena espektro batean; Apple Vision Pro bezalako gailu berritzaileak XR gisa sailkatzen dira, erabiltzaileari murgiltze mailak alda ditzakeen esperientzia malguak eskaintzen dizkiotelako, industriatik entretenimendura eta hezkuntzaraino aplikazio-eremu zabalarekin.
 
-## Errealitate Birtualerako (EB) eta Errealitate Aregoturako (EA) gailuak&#x20;
+<figure><img src="https://docs.unity3d.com/uploads/Main/xr-hero-img.png" alt=""><figcaption></figcaption></figure>
+
+## Errealitate Birtualerako (EB) eta Errealitate Aregoturako (EA) gailuak
 
 VR betaurrekoak (Virtual Reality headsets) errealitate birtualeko esperientziak bizitzeko diseinatutako gailu teknologiko aurreratuak dira. Head-Mounted Display (HMD) gisa ere ezagunak, gailu hauek erabiltzailea munduan murgiltzea ahalbidetzen dute, 360 graduko ingurune digitalak sortuz eta esperientzia inmertsiboa eskainiz.
 

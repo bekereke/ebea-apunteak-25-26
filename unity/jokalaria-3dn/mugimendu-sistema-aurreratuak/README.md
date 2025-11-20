@@ -131,6 +131,7 @@ public class RigidbodyPlayerMovement : MonoBehaviour
 {% endtab %}
 
 {% tab title="Rigibody Aurreratua" %}
+{% code overflow="wrap" %}
 ```csharp
 // Aireko kontrola (mugimendu murriztua jauzi egitean)
 public class AdvancedRigidbodyMovement : MonoBehaviour
@@ -154,9 +155,11 @@ public class AdvancedRigidbodyMovement : MonoBehaviour
     }
 }
 ```
+{% endcode %}
 {% endtab %}
 
 {% tab title="Rigibody Ezarpen garrantzitsuak" %}
+{% code overflow="wrap" %}
 ```csharp
 // Start() edo Awake()-n
 Rigidbody rb = GetComponent<Rigidbody>();
@@ -180,8 +183,17 @@ rb.mass = 1f; // Lehenetsita normalean ondo dago
 rb.drag = 0f; // Handitu mugimenduarekiko erresistentzia gehiagotzeko
 rb.angularDrag = 0.05f; // Biraketa-erresistentzia
 ```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
+
+<details>
+
+<summary>Emaitza</summary>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unnamed.jpg" alt=""><figcaption></figcaption></figure></div>
+
+</details>
 
 {% hint style="success" %}
 **Praktika onak&#x20;**<kbd>**Rigidbody**</kbd>**&#x20;Mugimendurako**
