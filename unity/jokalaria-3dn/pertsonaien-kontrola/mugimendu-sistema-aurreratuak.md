@@ -15,13 +15,13 @@ layout:
     visible: true
 ---
 
-# Mugimendu Sistema Aurreratuak
+# Mugimendua
 
 3D Unity jokoetan jokalariak mugitzeko hiru hurbilpen nagusi daude:
 
-1. [**Rigidbody Mugimendua** ](./#id-1.-rigidbody-mugimendua)- Fisikan oinarritua
-2. [**CharacterController**](./#id-2.-charactercontroller-mugimendua) - Pertsonaiak mugitzeko osagai espezializatua
-3. [**Transform Mugimendua**](./#id-3.-transform-mugimendua-ez-da-gomendatzen) - Manipulazio zuzena (ez da gomendatzen jokalarientzat)
+1. [**Rigidbody Mugimendua** ](mugimendu-sistema-aurreratuak.md#id-1.-rigidbody-mugimendua)- Fisikan oinarritua
+2. [**CharacterController**](mugimendu-sistema-aurreratuak.md#id-2.-charactercontroller-mugimendua) - Pertsonaiak mugitzeko osagai espezializatua
+3. [**Transform Mugimendua**](mugimendu-sistema-aurreratuak.md#id-3.-transform-mugimendua-ez-da-gomendatzen) - Manipulazio zuzena (ez da gomendatzen jokalarientzat)
 
 ***
 

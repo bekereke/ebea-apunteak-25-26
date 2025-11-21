@@ -2,10 +2,10 @@
 
 Unityn adierazteko diren objektuen artetik nagusia erabitzaileak kontrolatu beharreko hori da: `player` edo jokalaria, euskaraz. Harentzat oinarrizko ezarpenak ezagutzen; gero, hura kontrolatzeko aginte sistema doitzen; era naturalean (rigging) eta animazio segidak elkarlotzen ikasiko duzu, besteak beste. Jakintza guneak laburbildurik dituzu hemen:
 
-1. [**Mugimendu Sistema Aurreratuak**](mugimendu-sistema-aurreratuak/): Rigidbody vs CharacterController
-2. [**Talka Sistema**](talka-sistema.md): Collisions eta Triggers
-3. [**Animazio Sistema**](animazio-sistema.md): Animator Controller eta State Machines
-4. [**Input Sistema Berria**](mugimendu-sistema-aurreratuak/input-system-berria.md): Unity Input System
+1. [**Talka Sistema**](talka-sistema.md): Collisions eta Triggers
+2. [**Input Sistema Berria**](pertsonaien-kontrola/input-system-berria.md): Unity Input System
+3. [**Mugimendu Sistema Aurreratuak**](pertsonaien-kontrola/mugimendu-sistema-aurreratuak.md): Rigidbody vs CharacterController
+4. [**Animazio Sistema**](pertsonaien-kontrola/animazio-sistema.md): Animator Controller eta State Machines
 5. [**VR Garapena**](vr-garapena.md): XR Interaction Toolkit
 6. **Optimizazioa**: Profiler eta Performance
 
