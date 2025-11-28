@@ -17,7 +17,7 @@
 * [Jokalaria 3Dn](unity/jokalaria-3dn/README.md)
   * [Talka Sistema](unity/jokalaria-3dn/talka-sistema.md)
   * [Pertsonaien kontrola](unity/jokalaria-3dn/pertsonaien-kontrola/README.md)
-    * [Sarrera Sistema ()](unity/jokalaria-3dn/pertsonaien-kontrola/input-system-berria.md)
+    * [Sarrera Sistema](unity/jokalaria-3dn/pertsonaien-kontrola/input-system-berria.md)
     * [Mugimendua](unity/jokalaria-3dn/pertsonaien-kontrola/mugimendu-sistema-aurreratuak.md)
     * [Logika (Script)](unity/jokalaria-3dn/pertsonaien-kontrola/logika-script.md)
     * [Animazioak](unity/jokalaria-3dn/pertsonaien-kontrola/animazio-sistema.md)
