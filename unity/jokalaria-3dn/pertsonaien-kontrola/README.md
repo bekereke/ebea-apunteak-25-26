@@ -6,6 +6,8 @@ Unity-k bi sarrera kudeaketa sistema desberdin ditu: **Legacy Input Manager** (z
 
 Ikastaroan, Legacy sistemarekin hasi ondoren, kodea **refakturatzen** irakasten da, Sarrera Sistema Berria erabiltzeko. Refakturatze hau kode garbia idazteko eta kalitatea hobetzeko funtsezko gaitasuna da.
 
+<figure><img src="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.16/manual/images/ActionsEditor.png" alt=""><figcaption><p>Ekintzen (Actions) editorea Unityn</p></figcaption></figure>
+
 **Ezaugarri nagusiak eta ezarpena:**
 
 * Instalazioan, erabiltzaileari galdetzen zaio sistema berria aktibatu nahi duen. Ezarpenetan (`Project Settings > Player > Other Settings > Active Input Handling`), bi sistemak batera (`Both`) aktibatzea gomendatzen da.
