@@ -4,10 +4,11 @@
 
 ## Gailuak
 
-* [VR Betaurrekoak](gailuak/vr-betaurrekoak/README.md)
+* [Wereables](gailuak/vr-betaurrekoak/README.md)
   * [Meta Quest 3](gailuak/vr-betaurrekoak/meta-quest-3.md)
   * [Pico 4](gailuak/vr-betaurrekoak/pico-4.md)
 * [3D eskanerra](gailuak/3d-eskanerra.md)
+* [360 graduko kamera](gailuak/360-graduko-kamera.md)
 
 ## Unity
 
@@ -16,7 +17,7 @@
 * [Jokalaria 3Dn](unity/jokalaria-3dn/README.md)
   * [Talka Sistema](unity/jokalaria-3dn/talka-sistema.md)
   * [Pertsonaien kontrola](unity/jokalaria-3dn/pertsonaien-kontrola/README.md)
-    * [Sarrera (Input)](unity/jokalaria-3dn/pertsonaien-kontrola/input-system-berria.md)
+    * [Sarrera Sistema ()](unity/jokalaria-3dn/pertsonaien-kontrola/input-system-berria.md)
     * [Mugimendua](unity/jokalaria-3dn/pertsonaien-kontrola/mugimendu-sistema-aurreratuak.md)
     * [Logika (Script)](unity/jokalaria-3dn/pertsonaien-kontrola/logika-script.md)
     * [Animazioak](unity/jokalaria-3dn/pertsonaien-kontrola/animazio-sistema.md)
