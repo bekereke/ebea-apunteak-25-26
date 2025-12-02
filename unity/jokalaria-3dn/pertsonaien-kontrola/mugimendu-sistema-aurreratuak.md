@@ -239,6 +239,8 @@ rb.interpolation = RigidbodyInterpolation.Interpolate;
 
 </details>
 
+{% embed url="https://youtu.be/z3dequX5g_E?si=8RUY7jnNsYYHo2rR" %}
+
 ***
 
 ## <kbd>**CharacterController**</kbd> Mugimendua
