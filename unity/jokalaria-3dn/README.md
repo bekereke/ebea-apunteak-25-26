@@ -51,7 +51,7 @@ Jokalaria erabiltzaileak kontrolatzen duen pertsonaia edo objektua da jokoan. Jo
 
 ### Unity-ko Jokalariaren Osagaiak
 
-Jokalari bat Unity-n GameObject bat da, osagai (component) desberdinekin hornitua:
+Jokalari bat Unity-n `GameObject` bat da, osagai (component) desberdinekin hornitua:
 
 #### 1. `Transform`
 
@@ -494,7 +494,7 @@ VR-n jokalariak beste dimentsio bat du:
 
 1. **Bi eskuak**: Ezker eta eskuin kontrolak
 2. **Burua (HMD)**: 6 askatasun graduko jarraipena
-3. **Telepatioa**: Leku batetik bestera "salto" egitea
+3. **Teleportatzea**: Leku batetik bestera "salto" egitea
 4. **Eskuz hartzea**: Objektuak fisikoki hartu
 
 #### XR Interaction Toolkit
