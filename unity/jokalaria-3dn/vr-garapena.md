@@ -29,7 +29,26 @@ All-in-One daukazun arren, gela kargatzeko blokea gehitu behar duzu.
 
 > Argazkia: _Scene Mesh blokea eszenan gehituta._
 
-### 3. Kuboa Sortu eta Konfiguratu (Fisika)
+### 3. Oklusioa Konfiguratu (Hormak Atzean Ezkutatzea)
+
+Hormak ikusezin bihurtuko ditugu, baina kuboa hormaren atzean badoa, desagertu egingo da (errealismoa).
+
+1. Materiala Sortu: Project leihoan, eskuin klik > `Create > Material`. Deitu "OcclusionMat".
+2. Shader-a Aldatu: Materiala aukeratuta, Inspector-ean `Shader` jartzen duen goiko menuan, bilatu eta aukeratu hauetako bat:
+   * Aukera A (Gomendatua): `Meta > Universal > Occlusion` (URP erabiltzen baduzu).
+   * Aukera B (Alternatiba): `Oculus > Unlit > Transparent` (eta jarri kolorearen Alpha/Gardentasuna 0-ra).
+   * Aukera C (Azkarra): Bilatu proiektuan "MatteShadow" izeneko materiala existitzen den (Samples badituzu).
+3. Prefab-a Editatu:
+   * Aukera Hierarchy-an Scene Mesh objektua.
+   * Inspector-ean, bilatu `Mesh Prefab` edo `Volume Prefab` aldagaia.
+   * Egin klik aldagaian dagoen prefab-ean proiektuan non dagoen ikusteko.
+   * Ireki prefab hori (klik bikoitza).
+   * Arrastatu sortu duzun "OcclusionMat" materiala prefabaren gainera (urdina izateari utzi eta beltz/garden bihurtu behar da).
+   * Gorde eta atera prefab-etik.
+
+> Argazkia: _OcclusionMat materialaren ezarpenak eta Scene Mesh prefab-ari aplikatzen._
+
+### 4. Kuboa Sortu eta Konfiguratu (Fisika)
 
 Zati hau berdin mantentzen da, funtsezkoa baita zero grabitaterako.
 
@@ -46,7 +65,7 @@ Zati hau berdin mantentzen da, funtsezkoa baita zero grabitaterako.
 
 > Argazkia: _Kuboaren Rigidbody ezarpenak._
 
-### 4. Eskuak Aurkitu eta Prestatu (Garrantzitsua)
+### 5. Eskuak Aurkitu eta Prestatu (Garrantzitsua)
 
 "All-in-One" prefab bat denez, eskuak barruan "ezkutatuta" daude. Honela aurkitu behar dituzte ikasleek:
 
@@ -64,7 +83,7 @@ Zati hau berdin mantentzen da, funtsezkoa baita zero grabitaterako.
 
 > Argazkia: _Hierarchy-an All-in-One zabalduta LeftHandAnchor aurkitu arte, eta bere Inspector-a._
 
-### 5. Material Fisikoa (Irristakorra)
+### 6. Material Fisikoa (Irristakorra)
 
 Kuboa gainazaletan ez itsasteko.
 
@@ -87,3 +106,4 @@ Kuboa gainazaletan ez itsasteko.
 {% endhint %}
 
 </details>
+
