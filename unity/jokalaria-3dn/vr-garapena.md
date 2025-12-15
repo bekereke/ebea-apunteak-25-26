@@ -14,7 +14,7 @@ Ondoren, nahiz eta aurreragoko ADIBIDE PRAKTIKOko aukeretan Scene Support Requir
 
 <summary>ADIBIDE PRAKTIKOA</summary>
 
-## EM Kuboa
+## EM Kubo irristagarriarena
 
 <kbd>Meta XR All-in-One Building Block</kbd>a erabiliko da Unityren 6 bertsioan. Ezertan hasi orduko XR pluginak instalatu: Open XR aktibatu (<kbd>Meta XR feature group</kbd> aukeratu) bai Windows zein Androiderako, eta, azken hau aktibatu Build Profile gisa.&#x20;
 
