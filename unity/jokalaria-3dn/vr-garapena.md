@@ -7,7 +7,11 @@ Ingurunean eskaneoa egiteko (Entorno) _Meta Horizon Link_ programaren bidez biso
 
 ![](<../../.gitbook/assets/irudia (3).png>)
 
-Ondoren, nahiz eta aurreragoko ADIBIDE PRAKTIKOko aukeretan Scene Support Required jarri, ez du automatikoki ingurunearen irakurketa egingo. Beraz, onena da gauden lekuaren irakurketa egitea jarduera hasi aurretik. Bisoreetako ezarpenetan, egin ere: &#x20;
+**Scene Model** edo Ingurunearen Eredua izatea beharrezkoa da paretak eta objektuak identifikaturik izateko eta haiekin interaktuatu ahal izateko EMan.&#x20;
+
+Ondoren, nahiz eta aurreragoko ADIBIDE PRAKTIKOko aukeretan **Scene Support** Required jarri, ez du automatikoki ingurunearen irakurketa egingo. Beraz, onena da gauden lekuaren irakurketa egitea jarduera hasi aurretik. Bisoreetako ezarpenetan, egin ere: &#x20;
+
+![](<../../.gitbook/assets/irudia (8).png>)
 {% endhint %}
 
 <details>
