@@ -1,5 +1,15 @@
 # VR Garapena
 
+{% hint style="danger" %}
+#### GARRANTZITSUA:
+
+Ingurunean eskaneoa egiteko (Entorno) _Meta Horizon Link_ programaren bidez bisoretako ezarpenetan BETA aukera batzuk aktibatu behar dira:&#x20;
+
+![](<../../.gitbook/assets/irudia (3).png>)
+
+Ondoren, nahiz eta aurreragoko ADIBIDE PRAKTIKOko aukeretan Scene Support Required jarri, ez du automatikoki ingurunearen irakurketa egingo. Beraz, onena da gauden lekuaren irakurketa egitea jarduera hasi aurretik. Bisoreetako ezarpenetan, egin ere: &#x20;
+{% endhint %}
+
 <details>
 
 <summary>ADIBIDE PRAKTIKOA</summary>
@@ -26,7 +36,7 @@ Kamera eta Passthrough eskuz konfiguratu daitezkeen edo bloke bat erabili  (`[Bu
 
 5. Kamera barruan LeftHandAnchor blokean gehitu Proiektutik arrastratuta <kbd>OVRHandPrefab</kbd> bana ezkerreko eskura. RightHandAnchorekin ere berdina egin. Batekin zein bestearekin moldatu ezarpenak esku bakoitzera:
 
-<p align="center"><img src="../../.gitbook/assets/irudia.png" alt=""></p>
+<p align="center"><img src="../../.gitbook/assets/irudia (7).png" alt=""></p>
 
 ### 2. Gela Kargatu (<kbd>Scene Mesh</kbd>)
 
@@ -89,7 +99,7 @@ Zati hau berdin mantentzen da, funtsezkoa baita zero grabitaterako.
      * Collision Detection: Continuous Dynamic.
 4. Errepikatu `RightHandAnchor`-arekin (TrackingSpace barruan dagoena ere).
 
-<figure><img src="../../.gitbook/assets/irudia (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/irudia (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6. Material Fisikoa (Irristakorra)
 
@@ -114,4 +124,6 @@ Kuboa gainazaletan ez itsasteko.
 {% endhint %}
 
 </details>
+
+
 

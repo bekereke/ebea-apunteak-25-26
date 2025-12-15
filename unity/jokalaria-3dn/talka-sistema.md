@@ -245,7 +245,7 @@ void OnCollisionEnter(Collision collision)
 
 #### Palestra Interaktiboa
 
-<figure><img src="../../.gitbook/assets/irudia (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/irudia (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Eszenatokia Konfiguratzea**
 
@@ -319,7 +319,7 @@ Sortu trigger-zona bat palestran:
 
 Honela egingo duzu:
 
-<div><figure><img src="../../.gitbook/assets/irudia (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/unity1.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/irudia (2) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/unity1.png" alt=""><figcaption></figcaption></figure></div>
 
 **Ezarpenak:**
 
