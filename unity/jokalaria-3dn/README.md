@@ -6,7 +6,7 @@ Unityn adierazteko diren objektuen artetik nagusia erabitzaileak kontrolatu beha
 2. [**Input Sistema Berria**](pertsonaien-kontrola/input-system-berria.md): Unity Input System
 3. [**Mugimendu Sistema Aurreratuak**](pertsonaien-kontrola/mugimendu-sistema-aurreratuak.md): Rigidbody vs CharacterController
 4. [**Animazio Sistema**](pertsonaien-kontrola/animazio-sistema.md): Animator Controller eta State Machines
-5. [**VR Garapena**](vr-garapena.md): XR Interaction Toolkit
+5. [**VR Garapena**](../vr-garapena.md): XR Interaction Toolkit
 6. **Optimizazioa**: Profiler eta Performance
 
 Baina hasi orduko...

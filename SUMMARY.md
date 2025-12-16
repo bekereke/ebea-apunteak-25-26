@@ -21,4 +21,4 @@
     * [Mugimendua](unity/jokalaria-3dn/pertsonaien-kontrola/mugimendu-sistema-aurreratuak.md)
     * [Logika (Script)](unity/jokalaria-3dn/pertsonaien-kontrola/logika-script.md)
     * [Animazioak](unity/jokalaria-3dn/pertsonaien-kontrola/animazio-sistema.md)
-  * [VR Garapena](unity/jokalaria-3dn/vr-garapena.md)
+* [VR Garapena](unity/vr-garapena.md)
