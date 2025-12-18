@@ -1,6 +1,6 @@
 # VR Garapena
 
-Azalpen orokorra Blocks edo hutsetik egitearena
+Azalpen orokorra Building Blocks edo hutsetik egitearena
 
 ### MRUK Manager
 
